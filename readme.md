@@ -1,11 +1,27 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>1
+<p>Laravel 5.4 with KindEditor to mainpluate data inputs. </p>
+<p>This is an open source project designed by Fulun He.</p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+*Preview function is not available yet.
+
+
+->Installing guidance for local enviornment 
+
+Running this project requires MySQL server and Composer installed.
+1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
+2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours. <b>example.env.example</b> -> <b>.env</b>
+3. Generate your communication key on terminal: <b>php artisan key:generate</b>
+4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
+5. Test database migration: <b>php artisan db:seed</b>
+6. Use admin@admin.com for email address and <b>111111</b> for password for admin login.
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 
 ## About Laravel
 
