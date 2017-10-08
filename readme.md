@@ -12,7 +12,7 @@ Running this project requires MySQL server and Composer installed.
 3. Generate your communication key on terminal: <b>php artisan key:generate</b>
 4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
 5. Test database migration: <b>php artisan db:seed</b>
-6. Use admin@admin.com for email address and <b>111111</b> for password for admin login.
+6. Add <b>admin/login</b> after your local host address, and use admin@admin.com for email address and <b>111111</b> for password for admin login.
 
 
 
